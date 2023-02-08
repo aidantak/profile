@@ -1,0 +1,79 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Dangrek&family=Montserrat:ital@0;1&family=Roboto:wght@300&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: grey;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  line-height: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+.btn-blue {
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: rgb(224, 180, 188);
+}
+
+.fa-brands {
+  font-size: 45px;
+  color: black;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.fa-brands:hover {
+  color: grey;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 50px;
+  width: 600px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 10px 17px -1px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  background-color: pink;
+}
+
+#img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
